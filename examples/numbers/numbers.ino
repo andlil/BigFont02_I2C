@@ -11,9 +11,9 @@ void setup()
   big.begin();
   lcd.clear();
   lcd.setCursor(0,0);
-  lcd.write ("  BigFont02_I2C ");
+  lcd.write ('  BigFont02_I2C ');
   lcd.setCursor(0,1);
-  lcd.write ("  ============= ");
+  lcd.write ('  ============= ');
   delay(2000);
   lcd.clear();
 }
